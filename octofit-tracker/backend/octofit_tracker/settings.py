@@ -145,3 +145,4 @@ CORS_ALLOW_HEADERS = [
 
 # Allow all hosts
 ALLOWED_HOSTS = ['*']
+
