@@ -77,13 +77,6 @@ DATABASES = {
     "default": {
         "ENGINE": "djongo",
         "NAME": "octofit_db",
-        "ENFORCE_SCHEMA": False,  # Opcional, dependendo do uso
-        "CLIENT": {
-            "host": "mongodb://localhost:27017",  # Substitua pelo host do seu MongoDB
-            "username": "",  # Substitua pelo usuário, se necessário
-            "password": "",  # Substitua pela senha, se necessário
-            "authSource": "admin",  # Substitua pelo authSource, se necessário
-        },
     }
 }
 
