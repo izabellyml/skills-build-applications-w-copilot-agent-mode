@@ -76,7 +76,7 @@ WSGI_APPLICATION = "web_django.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE":    "djongo",
+        "ENGINE": "djongo",
         "NAME": "octofit_db",
     }
 }
